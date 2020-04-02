@@ -1,0 +1,10 @@
+Steps to open git repo
+
+Step-1  :   go to website "github" enter credentials "username:geet121/password:Geetik@123"
+Step-2  :   select the repository "JAVA/React" from the top left window
+Step-3  :   go to clone or download button (green-color) shon in the website
+Step-4  :   copy the url when you click the button
+Step-5  :   go to respective folder where you want to copy your files
+Step-6  :   open command-window and type "git clone {pathName}" and the path name (pathName is the url that you copied)
+Step-7  :   go to the copied folder and do your code.....
+Step-8  :   do "git status" where you will see code changes that you have made in "red color"
