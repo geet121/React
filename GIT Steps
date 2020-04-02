@@ -8,3 +8,10 @@ Step-5  :   go to respective folder where you want to copy your files
 Step-6  :   open command-window and type "git clone {pathName}" and the path name (pathName is the url that you copied)
 Step-7  :   go to the copied folder and do your code.....
 Step-8  :   do "git status" where you will see code changes that you have made in "red color"
+Step-9  :   do "git add ."  to add all the files or else do "git add <fileName>"
+Step-10 :   do "git status" to check the files which are added will appear as green colour
+Step-11 :   then, add message using "git commit -m"<anyMessage>"" command which will appear in the history
+Step-12 :   do "git push origin "branchName"" to push the code to the repository
+Step-13 :   enter your credentials to give the acess to the git
+Step-14 :   check again using "git status" to see that your code got pushed
+<-------------------------GREAT JOB!! YOU DID VERY WELL------------------------->
