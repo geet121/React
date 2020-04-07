@@ -11,7 +11,7 @@ const controls = [
 ];
 
 const buildControls = (props) => {
-  console.log('[buildControl.js]');
+  // console.log('[buildControl.js]');
   return (
     <div className={classes.BuildControls}>
       <p>

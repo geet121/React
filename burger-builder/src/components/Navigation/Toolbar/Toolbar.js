@@ -5,7 +5,7 @@ import NavItems from '../NavItems/NavItems';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
 const toolbar = (props) => {
-  console.log('[toolbar.js]');
+  // console.log('[toolbar.js]');
   return (
     <header className={classes.Toolbar}>
       <DrawerToggle clicked={props.drawerToggleClicked} />

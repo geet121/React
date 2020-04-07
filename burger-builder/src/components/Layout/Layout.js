@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Aux from '../../hoc/Aux';
 import classes from './Layout.css';
 import Toolbar from '../Navigation/Toolbar/Toolbar';
@@ -19,7 +18,7 @@ class Layout extends Component {
   };
 
   render() {
-    console.log('[Layout.js]');
+    // console.log('[Layout.js]');
     return (
       <Aux>
         <Toolbar drawerToggleClicked={this.SideDrawerToggleHandler} />

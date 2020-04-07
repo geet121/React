@@ -3,6 +3,7 @@ import React from 'react';
 import classes from './BControl.css';
 
 const bControl = (props) => (
+  // console.log('[BControls]');
   <div className={classes.BControl}>
     <div className={classes.Label}>{props.label}</div>
     <button

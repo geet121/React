@@ -4,7 +4,7 @@ import classes from './NavItems.css';
 import NavItem from './NavItem/NavItem';
 
 const navitems = () => {
-  console.log('[navitems.js]');
+  // console.log('[navitems.js]');
   return (
     <ul className={classes.NavItems}>
       <NavItem link="/" active>

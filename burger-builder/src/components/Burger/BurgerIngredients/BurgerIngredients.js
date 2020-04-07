@@ -5,7 +5,7 @@ import classes from './BurgerIngredients.css';
 
 class BurgerIngredients extends Component {
   render() {
-    console.log('[BurgerIngredients.js]');
+    // console.log('[BurgerIngredients.js]');
     let ingredients = null;
     switch (this.props.type) {
       case 'bread-bottom':
