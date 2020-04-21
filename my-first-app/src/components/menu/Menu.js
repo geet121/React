@@ -2,7 +2,7 @@ import React from 'react';
 import './Menu.css';
 
 const menu = () => {
-  return <div className="Menu">Menu</div>;
+  return <li className="Menu">Menu</li>;
 };
 
 export default menu;

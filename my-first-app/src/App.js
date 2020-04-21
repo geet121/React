@@ -15,7 +15,7 @@ function App() {
     },
   ];
   return (
-    <div className="App">
+    <div>
       {pages.map((page, i) => {
         return <Route path={page.pageLink} component={page.view} key={i} />;
       })}

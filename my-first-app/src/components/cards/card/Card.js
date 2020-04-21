@@ -1,12 +1,16 @@
 import React from 'react';
-import './Card.css';
+import { Card, Name, Image, Button } from './Card.styles';
 
 const card = (props) => {
   return (
-    <div className="Card">
-      <img src={props.imageName} className="Image" alt="" />
-      <div className="Name">Name {props.name}</div>
-    </div>
+    <Card>
+      <Image src={props.imageName} alt="" />
+      <Name>
+        <h3>{props.title}</h3>
+        <div>{props.content}</div>
+        <Button>Read more</Button>
+      </Name>
+    </Card>
   );
 };
 

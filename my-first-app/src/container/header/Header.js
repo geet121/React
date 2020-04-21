@@ -1,22 +1,21 @@
 import React from 'react';
-import './Header.css';
-import Aux from '../../hoc/aux/Aux';
+import { Header, MainHeader, HeaderContent } from './Header.styles';
 import Menu from '../../components/menu/Menu';
 import Help from '../../components/help/Help';
 
 const headerContent = () => (
-  <h1 className="HeaderContent">Welcome to Puccha's and Pucchi's World </h1>
+  <HeaderContent>Welcome to Puccha's and Pucchi's World </HeaderContent>
 );
 
 const header = (props) => {
   return (
-    <div className="MainHeader">
-      <header className="Header">
+    <MainHeader>
+      <Header>
         <Menu />
         {headerContent()}
         <Help />
-      </header>
-    </div>
+      </Header>
+    </MainHeader>
   );
 };
 

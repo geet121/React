@@ -10,7 +10,7 @@ const layout = () => {
   return (
     <Aux>
       <Header />
-      {/* <CardHolder /> */}
+      <CardHolder />
       <Slideshow />
       <MiddleWare />
       <Faq />

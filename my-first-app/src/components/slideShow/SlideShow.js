@@ -3,7 +3,6 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 // https://www.npmjs.com/package/react-slideshow-image
 
-import './SlideShow.css';
 import {
   SliderContainer,
   EachSlideSpan,
@@ -12,7 +11,7 @@ import {
 } from './SlideShow.styles';
 
 const properties = {
-  duration: 5000,
+  duration: 50000,
   transitionDuration: 500,
   infinite: true,
   indicators: true,
@@ -40,7 +39,7 @@ const slideImages = [
 
 const ImageToDisplay = (props) => (
   <EachSlideDiv>
-    <BackgroundImage url={props.imgUrl}>
+    <BackgroundImage backgroundImage={`url(./worldMap.jpg)`}>
       <EachSlideSpan>{props.message}</EachSlideSpan>
     </BackgroundImage>
   </EachSlideDiv>

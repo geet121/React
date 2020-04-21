@@ -1,37 +1,39 @@
 import React from 'react';
 import Card from './card/Card';
-import './Cards.css';
+import { Cards } from './Cards.styles';
 import image from '../../Images/worldMap.jpg';
 
 const arrayOfCard = [
   {
     imageName: image,
-    name: 'One',
+    title: 'One',
+
+    content: 'A short discription of a Card',
   },
   {
     imageName: image,
-    name: 'Two',
+    title: 'Two',
+
+    content: 'A short discription of a Card',
   },
   {
     imageName: image,
-    name: 'Three',
-  },
-  {
-    imageName: image,
-    name: 'Four ',
-  },
-  {
-    imageName: image,
-    name: 'Four ',
+    title: 'Four ',
+    content: 'A short discription of a Card',
   },
 ];
+
 const cards = (props) => {
   return (
-    <div className="Cards">
+    <Cards>
       {arrayOfCard.map((element) => (
-        <Card imageName={element.imageName} name={element.name} />
+        <Card
+          imageName={element.imageName}
+          title={element.title}
+          content={element.content}
+        />
       ))}
-    </div>
+    </Cards>
   );
 };
 

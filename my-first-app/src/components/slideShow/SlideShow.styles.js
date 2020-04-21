@@ -14,7 +14,7 @@ export const EachSlideDiv = styled.div`
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 300px;
+  height: 500px;
 `;
 
 export const EachSlideSpan = styled.div`
@@ -29,5 +29,6 @@ export const EachFade = styled.div`
 `;
 
 export const BackgroundImage = styled.div`
-  background-image: url(${(props) => props.url});
+  width: 100%;
+  height: 100%;
 `;

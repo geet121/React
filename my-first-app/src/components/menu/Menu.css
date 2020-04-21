@@ -1,4 +1,6 @@
 .Menu {
   background-color: darkgoldenrod;
   width: 10%;
+  display: inline-block;
+  line-height: 80px;
 }
