@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './card/Card';
 import './Cards.css';
-import image from '../../logo.svg';
+import image from '../../Images/worldMap.jpg';
 
 const arrayOfCard = [
   {

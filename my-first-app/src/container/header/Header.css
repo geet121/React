@@ -1,4 +1,18 @@
 .Header {
   text-align: center;
   background-color: chocolate;
+  display: flex;
+  margin: auto;
+  align-self: center;
+  flex-direction: row;
+}
+
+.HeaderContent {
+  color: burlywood;
+  font-style: italic;
+}
+
+.MainHeader {
+  flex-direction: column;
+  display: flex;
 }

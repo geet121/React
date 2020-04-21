@@ -1,4 +1,5 @@
 .Help {
   color: navy;
-  text-align: end;
+  background-color: darkgray;
+  align-items: flex-end;
 }

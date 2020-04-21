@@ -4,12 +4,14 @@ import CardHolder from '../../container/cardHolder/CardHolder';
 import Aux from '../aux/Aux';
 import MiddleWare from '../../container/middleWare/MiddleWare';
 import Faq from '../../container/faq/Faq';
+import Slideshow from '../../components/slideShow/SlideShow';
 
 const layout = () => {
   return (
     <Aux>
       <Header />
-      <CardHolder />
+      {/* <CardHolder /> */}
+      <Slideshow />
       <MiddleWare />
       <Faq />
     </Aux>
